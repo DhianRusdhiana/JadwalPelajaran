@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:id="@+id/bg"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:background="#ffffe845"/>
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@+id/bg"
+            android:layout_marginBottom="-30dp"
+            android:id="@+id/icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jadwal Pelajaran"
+            android:layout_marginBottom="30dp"
+            android:textSize="18dp"
+            android:layout_above="@+id/icon"
+            android:textColor="#ffffffff" />
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/icon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            
+            
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                       android:gravity="right"
+                        android:text="Version : 1.0.0"
+                        android:textColor="#ff008080"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        
+                        android:text="Created by : Dhian Rusdhiana"
+                        android:textColor="#ff008080"/>
+
+                
+            <TextView
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff0000"
+                android:textSize="20dp"
+                android:text="OK"
+                android:id="@+id/ok"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="30dp" />
+            
+        </LinearLayout>
+    </RelativeLayout>
+    
+    
+    
+</LinearLayout>

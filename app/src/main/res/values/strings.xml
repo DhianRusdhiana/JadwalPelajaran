@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jadwal Pelajaran</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="senin">Senin</string>
+    <string name="selasa">Selasa</string>
+    <string name="rabu">Rabu</string>
+    <string name="kamis">Kamis</string>
+    <string name="jumat">Jumat</string>
+    
+    <string name="child_exception">TintLayout must have child. Only one child.</string>
+    <string name="angle_exception">The angle can only be positive and be in range from 0 to 360.</string>
+    
+    
+
+</resources>

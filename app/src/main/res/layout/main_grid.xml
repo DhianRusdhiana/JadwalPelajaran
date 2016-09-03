@@ -1,0 +1,53 @@
+<com.dhian.CustomCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardlist_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="@dimen/cardview_default_elevation">
+    
+    <com.dhian.FlatLayout
+        android:background="#ff008080"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp" >
+
+    <TextView
+        android:textColor="#ffffffff"
+        android:id="@+id/kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Kelas"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    
+
+    <TextView
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/nama_kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:textSize="50dp" >
+    </TextView>
+
+</LinearLayout>
+    </com.dhian.FlatLayout>
+    
+</com.dhian.CustomCardView>
